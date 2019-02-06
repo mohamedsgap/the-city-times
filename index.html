@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The City Times</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" href="images/mancitylogo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/mancity.png" alt="mancity">
+        <h1 class="header__title">
+          The City Times
+        </h1>
+        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">News</a></li>
+        <li class="nav__item"><a href="#">Events</a></li>
+        <li class="nav__item"><a href="#">Team</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="hero">
+          <article class="description">
+            <h2>BERNARDO: WE'RE IN GREAT SHAPE FOR CHALLENGE AHEAD</h2>
+            <p>Bernardo Silva says the glut of games the Blues are playing is not taking its toll on the players.</p>
+          </article>
+        </section>
+
+        <section class="news top-news">
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="top-news__item">
+              <a href="#"> EVERTON vs MAN CITY todat at 19:45</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#"> TRAINING: CITY'S STREET FOOTBALL SPECIAL</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">GUARDIOLA: TITLE RACE WILL GO TO THE WIRE</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">NEWPORT COUNTY BOOK FA CUP 5TH ROUND TIE WITH CITY</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="scores">
+          <table class="scores__table">
+            <thead>
+              <tr>
+                <th>date</th>
+                <th class="scores__location">location</th>
+                <th>team</th>
+                <th colspan="2">score</th>
+                <th>team</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sunday</td>
+                <td class="scores__location">Home</td>
+                <td class="winner">Man City</td>
+                <td class="winner">3</td>
+                <td>1</td>
+                <td>Arsenal</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td class="scores__location">Away</td>
+                <td class="winner">New Castle</td>
+                <td class="winner">2</td>
+                <td>1</td>
+                <td>Man City</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td class="scores__location">Home</td>
+                <td class="winner">Man City</td>
+                <td class="winner">5</td>
+                <td>0</td>
+                <td>Burnley</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td class="scores__location">Away</td>
+                <td>Briton Albion</td>
+                <td>0</td>
+                <td class="winner">1</td>
+                <td class="winner">Man City</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td class="scores__location">Home</td>
+                <td class="winner">Mac City</td>
+                <td class="winner">3</td>
+                <td>0</td>
+                <td>Huddersfield</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </section>
+
+        <section class="weather">
+          <span class="weather__location">Manchester, UK</span>
+          <span class="weather__desc">Cloudy</span>
+          <span class="weather__today">
+          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially cloudy day"><span class="weather__today__temp">9</span><span class="weather__today__deg">&deg;C</span>
+          </span>
+          <ul class="weather__next">
+            <li class="weather__next__item">
+              <span>Mon</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>8 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Tues</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>2 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Wed</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>5 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Thu</span>
+              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
+              <span>1 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Fri</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="news recent-news">
+          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/training.jpg" alt="training">
+              <h3 class="snippet__title"><a href="#">City stepped up preparations ahead of our semi-final Continental Cup clash...</a></h3>
+              <p>Nick Cushing's side travel to the Kingsmeadow Stadium on Wednesday night to face Chelsea women, with a place in the final up for grabs.</p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/fa.jpg" alt="FA CUP">
+              <h3 class="snippet__title"><a href="#">Giant-killers Newport County await City in the FA Cup fifth round.</a></h3>
+              <p>The mid-table League Two side claimed another notable scalp as they saw off Tony Pulis’ Middlesbrough 2-0 at Rodney Parade in their FA Cup fourth round replay to set up a tie with the Premier League champions.</p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/pep.jpg" alt="PEP">
+              <h3 class="snippet__title"><a href="#">Pep Guardiola believes the battle to be crowned Premier League champions may not be decided until the final day of the season.</a></h3>
+              <p>After a series of dramatic twists and turns in what has become a thrilling battle for supremacy, City have the chance to go top of the table for the first time since mid-December if we win at Everton tomorrow night.
+               With 13 league games remaining, the Blues currently lie in second place, three points behind leaders Liverpool but with a superior goal difference while third placed-Tottenham are a further two points adrift.</p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/ew.jpg" alt="England Women Team">
+              <h3 class="snippet__title"><a href="#">ACADEMY STADIUM TO HOST ENGLAND WOMEN V CANADA</a></h3>
+              <p>Manchester City's Academy Stadium will play host to England’s Women in April when the Lionesses take on Canada in a crucial warm-up match ahead of this summer’s 2019 FIFA Women's World Cup finals.</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Follow us on Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+          <li> Update on Wednesday, February 6, 2019</li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
